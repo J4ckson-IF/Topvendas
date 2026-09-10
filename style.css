@@ -181,3 +181,38 @@ body {
 .btn-cadastrar:hover {
     background-color: var(--azul-escuro);
 }
+
+.hamburguer {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .hamburguer {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .actions.ativo {
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    .logo.ativo {
+        display: none;
+    }
+
+    /* Classe que o JavaScript vai adicionar/remover para mostrar o menu */
+    .nav.ativo {
+        display: flex;
+    }
+}
