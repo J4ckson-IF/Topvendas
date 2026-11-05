@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -32,12 +34,53 @@
 
             <div class="actions">
                 <a href="#" class="btn btn-entrar">Entrar</a>
-                <a href="#" class="btn btn-cadastrar">Cadastrar</a>
+                <a href="#" class="btn btn-cadastrar btn-azul">Cadastrar</a>
             </div>
 
             <button class="hamburguer" id="btn-menu">☰</button>
         </div>
     </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <span class="hero-etiq">Para todos</span>
+
+                <h1 class="hero-tit" id="first-h-tit">organização</h1>
+                <h1 class="hero-tit" id="med-h-tit">eficiência</h1>
+                <h1 class="hero-tit" id="last-h-tit">centralização</h1>
+
+                <p class="hero-desc">
+                    Organização de estoque, venda e compra de produtos, tudo em um só lugar.
+                </p>
+
+                <div class="hero-btn">
+                    <a href="#" class="btn btn-contorno"> <span class="material-symbols-outlined">play_arrow</span> Veja Mais</a>
+                </div>
+
+                <ul class="hero-vantagens">
+                    <li>
+                        <span class="material-symbols-outlined">box</span>
+                        <p>Gerenciamento de estoque</p>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">sell</span>
+                        <p>Venda de produtos</p>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">bolt</span>
+                        <p>Sistema moderno</p>
+                    </li>
+                </ul>
+            </div>
+
+            <img 
+                src="/assets/topvcanva.png"
+                alt="Imagem do site"
+                class="hero-img"
+            >
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
